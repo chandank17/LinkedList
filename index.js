@@ -50,9 +50,9 @@ class LinkedList {
 
 const linkedList = new LinkedList();
 linkedList.insertAt(0, 'Grand Father');
-linkedList.insertAt(0, 'Father');
-linkedList.insertAt(1, 'Wife');
-linkedList.insertAt(2, 'Child1');
-linkedList.insert('Child2');
+linkedList.insertAt(1, 'Father');
+linkedList.insertAt(2, 'Mom');
+linkedList.insert('Me');
+linkedList.insert('Brother');
 console.log(linkedList.get());
 console.log(linkedList.keys());
