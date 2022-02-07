@@ -50,6 +50,7 @@ class LinkedList {
 
 const linkedList = new LinkedList();
 linkedList.insertAt(0, 'Grand Father');
+linkedList.insertAt(0, 'Father');
 linkedList.insertAt(1, 'Wife');
 linkedList.insertAt(2, 'Child1');
 linkedList.insert('Child2');
